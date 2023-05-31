@@ -612,5 +612,155 @@
   font-size: 1.5em;
   padding: 20px 0;
 }
-
 /* pagination css end here */
+
+
+/*footer css start here */
+footer {
+  /* background: linear-gradient(0deg, rgba(104,156,88,1) 40%, rgba(254,247,140,1) 100%); */
+  background-color: #6f9c61;
+  margin: 50px 0 0;
+  padding: 20px 0;
+  display: grid;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-a {
+  display: flex;
+}
+
+.useful-links,
+.copyright,
+.connect-with-us,
+.payment-icons {
+  padding: 10px;
+}
+
+.useful-links a,
+h3 {
+  padding: 5px;
+}
+
+.useful-links h3 {
+  font-family: 'Heavy';
+  font-size: 25px;
+  color: wheat;
+}
+
+.useful-links a {
+
+  display: block;
+  text-decoration: none;
+  font-family: "Medium";
+  color: white;
+}
+
+.connect-with-us {
+  display: block;
+}
+
+.connect-with-us,
+.copyright h3 {
+  font-family: 'Heavy';
+  font-size: 25px;
+  color: wheat;
+
+}
+
+.connect-with-us h3 {
+  font-size: 25px;
+}
+
+.connect-with-us a,
+.h3 {
+  padding: 5px;
+
+  display: inline;
+}
+
+.connect-with-us a ion-icon {
+  height: 40px;
+  width: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.payment-icons {
+  text-align: center;
+  width: 300px;
+  height: 50px;
+}
+
+.payment-icons img {
+  width: 60px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.copyright p {
+  padding: 5px;
+  font-family: 'Light';
+  color: white;
+}
+
+
+
+.footer-b {
+  display: block;
+}
+
+.footer-b p,
+input,
+button {
+  padding: 10px;
+}
+
+.footer-b p.subscribe {
+  color: wheat;
+  font-family: "Bold";
+  font-size: 36px;
+}
+
+.footer-b p.subs-text {
+  color: rgb(204, 204, 204);
+  font-family: "Medium";
+  font-size: 15px;
+}
+
+.footer-b input {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 20px;
+  width: 300px;
+  font-size: 20px;
+
+}
+
+
+.footer-b button {
+  font-family: 'SemiBold';
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  height: 43px;
+  width: 150px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+footer p {
+  padding: 60px 0 20px;
+  text-align: center;
+  color: white;
+  font-family: "Medium";
+}
+
+
+
+/* footer css end here */

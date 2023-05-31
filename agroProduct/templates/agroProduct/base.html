@@ -40,10 +40,10 @@
       </div>
       <div class="userspecific" style="padding-top: 20px;display: flex;padding-left: 90px;">
         <div class="pad">
-          <a href="#"><img src="/image assets/userspecific/heart.png" alt=""></a>
+          <a href="#"><img src="{% static 'agroProduct/image/userspecific/heart.png' %}" alt=""></a>
         </div>
         <div class="pad">
-          <a href="#"><img src="/image assets/userspecific/shopping-bag.png" alt=""></a>
+          <a href="#"><img src="{% static 'agroProduct/image/userspecific/shopping-bag.png' %}" alt=""></a>
         </div>
         <div style=" padding:8px 0 10px 20px;">
           <button class="btnLogin-popup">LOGIN</button>
@@ -219,7 +219,42 @@
 
   {% endblock %}
 
+  <footer>
+    <div class="footer-container">
+        <div class="footer-a">
+            <div class="useful-links">
+                <h3>Useful Links</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms &amp; Conditions</a>
+            </div>
+            <div class="connect-with-us">
+                <h3>Connect with Us</h3>
+                <a href=""><ion-icon name="logo-github" role="img" class="md hydrated"></ion-icon></a>
+                <a href=""><ion-icon name="logo-facebook" role="img" class="md hydrated"></ion-icon></a>
+                <a href=""><ion-icon name="logo-instagram" role="img" class="md hydrated"></ion-icon></a>
+            </div>
+            <div class="copyright">
+                <h3>Copyright</h3>
+                <p>AgroBloom © 2023</p>
+            </div>
+            <div class="payment-icons">
+                <img src="{% static 'agroProduct/image/payment icons/icons8-amazon-pay-32.png' %}" alt="">
+                <img src="{% static 'agroProduct/image/payment icons/icons8-mastercard-48.png' %}" alt="">
+                <img src="{% static 'agroProduct/image/payment icons/paytm.png' %}" alt="">
+                <img src="{% static 'agroProduct/image/payment icons/visa.png' %}" alt="">
+            </div>
+        </div>
+        <div class="footer-b">
+            <p class="subscribe">Subscribe to our Newsletter</p>
+            <input type="email" placeholder="Email" required="" style="font-family: Medium;">
+            <button type="submit">Subscribe</button>
+            <p class="subs-text">Get regular updates on our procuct with our newsletter.</p>
 
+        </div>
+
+    </div>
+    <p>These statements have not been evaluated by the Food and Drug Administration.</p>
+</footer>
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
