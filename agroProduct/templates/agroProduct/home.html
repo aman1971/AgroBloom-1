@@ -19,27 +19,27 @@
       </div>
       <div style="display: flex;justify-content: center;padding-left: 20px;">
         <div>
-          <a href="/pages/seed products.html">
+          <a href="{% url 'search' %}?category=seed">
             <img src="{% static 'agroProduct/image/seed card.svg' %}" alt="">
           </a>
         </div>
         <div>
-          <a href="pages/tools products.html">
+          <a href="{% url 'search' %}?category=tools">
             <img src="{% static 'agroProduct/image/tools card.svg' %}" alt="">
           </a>
         </div>
         <div>
-          <a href="seed products.html">
+          <a href="{% url 'search' %}?category=fertilizers">
             <img src="{% static 'agroProduct/image/fertilizers card.svg' %}" alt="">
           </a>
         </div>
         <div>
-          <a href="seed products.html">
+          <a href="{% url 'search' %}?category=pesticides">
             <img src="{% static 'agroProduct/image/pesticides card.svg' %}" alt="">
           </a>
         </div>
         <div>
-          <a href="seed products.html">
+          <a href="{% url 'search' %}?category=animal husbandry">
             <img src="{% static 'agroProduct/image/animal husbandry card.svg' %}" alt="">
           </a>
         </div>

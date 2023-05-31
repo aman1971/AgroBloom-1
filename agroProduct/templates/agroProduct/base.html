@@ -28,7 +28,7 @@
           <input type="button" value=" Bulk Orders">
         </a>
       </div>
-      <input type="text" placeholder="Search...." required style="font-family: Medium;">
+      <input type="text" placeholder="Search...." class="search-input" required style="font-family: Medium;">
     </div>
 
 
@@ -138,18 +138,18 @@
 
     <div class="navbar">
       <div>
-        <a href="#home">Home</a>
+        <a href="{% url 'home' %}">Home</a>
         <a href="#news">Offers</a>
         <div class="dropdown">
           <button class="dropbtn">Seeds
             <i class="fa fa-angle-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Horticulture Seeds</a>
-            <a href="#">Food Crop Seeds</a>
-            <a href="#">Cash Crop Seeds</a>
-            <a href="#">Vegetable & Fruit Seeds</a>
-            <a href="#">Flower Seeds</a>
+            <a href="{% url 'search' %}?subcategory=horticulture">Horticulture Seeds</a>
+            <a href="{% url 'search' %}?subcategory=food crop">Food Crop Seeds</a>
+            <a href="{% url 'search' %}?subcategory=cash crop">Cash Crop Seeds</a>
+            <a href="{% url 'search' %}?subcategory=vegetables & fruit">Vegetable & Fruit Seeds</a>
+            <a href="{% url 'search' %}?subcategory=flower">Flower Seeds</a>
           </div>
         </div>
         <div class="dropdown">
@@ -157,12 +157,12 @@
             <i class="fa fa-angle-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Booster Fertilizer</a>
-            <a href="#">Micro - Nutrient Fertilizer</a>
-            <a href="#">Nutrient Fertilizer</a>
-            <a href="#">Organic Fertilizer</a>
-            <a href="#">Plant Nutrient Fertilizer</a>
-            <a href="#">Water Soluble Fertilizer</a>
+            <a href="{% url 'search' %}?subcategory=booster">Booster Fertilizer</a>
+            <a href="{% url 'search' %}?subcategory=micro nutrient">Micro - Nutrient Fertilizer</a>
+            <a href="{% url 'search' %}?subcategory=nutrient">Nutrient Fertilizer</a>
+            <a href="{% url 'search' %}?subcategory=organic fertilizer">Organic Fertilizer</a>
+            <a href="{% url 'search' %}?subcategory=plant nutrient">Plant Nutrient Fertilizer</a>
+            <a href="{% url 'search' %}?subcategory=water soluble">Water Soluble Fertilizer</a>
           </div>
         </div>
         <div class="dropdown">
@@ -170,14 +170,14 @@
             <i class="fa fa-angle-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Bactericides</a>
-            <a href="#">Weedicides</a>
-            <a href="#">Fungicides</a>
-            <a href="#">Herbicides</a>
-            <a href="#">Insecticides</a>
-            <a href="#">Larvicides</a>
-            <a href="#">Organic Pesticides</a>
-            <a href="#">Rodenticides</a>
+            <a href="{% url 'search' %}?subcategory=bactericides">Bactericides</a>
+            <a href="{% url 'search' %}?subcategory=weedicides">Weedicides</a>
+            <a href="{% url 'search' %}?subcategory=fungicides">Fungicides</a>
+            <a href="{% url 'search' %}?subcategory=herbicides">Herbicides</a>
+            <a href="{% url 'search' %}?subcategory=insecticides">Insecticides</a>
+            <a href="{% url 'search' %}?subcategory=larvicides">Larvicides</a>
+            <a href="{% url 'search' %}?subcategory=organic pesticides">Organic Pesticides</a>
+            <a href="{% url 'search' %}?subcategory=rodenticides">Rodenticides</a>
 
           </div>
         </div>
@@ -186,9 +186,9 @@
             <i class="fa fa-angle-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Cocopeat</a>
-            <a href="#">Plant Growth Promoter</a>
-            <a href="#">Vermicompost</a>
+            <a href="{% url 'search' %}?subcategory=cocopeat">Cocopeat</a>
+            <a href="{% url 'search' %}?subcategory=plant growth promoter">Plant Growth Promoter</a>
+            <a href="{% url 'search' %}?subcategory=vermicompost">Vermicompost</a>
           </div>
         </div>
         <div class="dropdown">
@@ -196,9 +196,9 @@
             <i class="fa fa-angle-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="pages/navbar/tools/farmtools.html">Farm Tools & Equipments</a>
-            <a href="#">Irrigation Tools & Equipments</a>
-            <a href="#">Nursery Tools & Equipments</a>
+            <a href="{% url 'search' %}?subcategory=farm tools">Farm Tools & Equipments</a>
+            <a href="{% url 'search' %}?subcategory=irrigation tools">Irrigation Tools & Equipments</a>
+            <a href="{% url 'search' %}?subcategory=nursery tools">Nursery Tools & Equipments</a>
           </div>
         </div>
         <div class="dropdown">
@@ -206,9 +206,9 @@
             <i class="fa fa-angle-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Cattle Feed</a>
-            <a href="#">Chicken Feed</a>
-            <a href="#">Fish Food</a>
+            <a href="{% url 'search' %}?subcategory=cattle feed">Cattle Feed</a>
+            <a href="{% url 'search' %}?subcategory=chicken feed">Chicken Feed</a>
+            <a href="{% url 'search' %}?subcategory=fish food">Fish Food</a>
           </div>
         </div>
       </div>
@@ -220,12 +220,14 @@
   {% endblock %}
 
 
-  <script src="script.js"></script>
+
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
     crossorigin="anonymous"></script>
+
+  <script src="{% static 'agroProduct/script.js' %}"></script>
 </body>
 
 </html>

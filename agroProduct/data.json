@@ -1,0 +1,452 @@
+{
+  "Sheet1": [
+    {
+      "product_id": 1,
+      "product_name": "Coffee seed",
+      "product_price": 200,
+      "product_subCategory": "cash crop",
+      "product_category": "seeds",
+      "product_image": "Coffee-min.png"
+    },
+    {
+      "product_id": 2,
+      "product_name": "Tea Seed",
+      "product_price": 400,
+      "product_subCategory": "cash crop",
+      "product_category": "seeds",
+      "product_image": "Tea-min.png"
+    },
+    {
+      "product_id": 3,
+      "product_name": "soybeans-min",
+      "product_price": 300,
+      "product_subCategory": "cash crop",
+      "product_category": "seeds",
+      "product_image": "soybeans-min.png"
+    },
+    {
+      "product_id": 4,
+      "product_name": "Lotus Seed",
+      "product_price": 100,
+      "product_subCategory": "flower",
+      "product_category": "seeds",
+      "product_image": "Lotus-min.png"
+    },
+    {
+      "product_id": 5,
+      "product_name": " Rose Seed",
+      "product_price": 200,
+      "product_subCategory": "flower",
+      "product_category": "seeds",
+      "product_image": "Rose-min.png"
+    },
+    {
+      "product_id": 6,
+      "product_name": "Marigold Seed",
+      "product_price": 200,
+      "product_subCategory": "flower",
+      "product_category": "seeds",
+      "product_image": "marigold-min.png"
+    },
+    {
+      "product_id": 7,
+      "product_name": "Sunflower Seed",
+      "product_price": 300,
+      "product_subCategory": "flower",
+      "product_category": "seeds",
+      "product_image": "sunflower-min.png"
+    },
+    {
+      "product_id": 8,
+      "product_name": "Barnyard millet Seed",
+      "product_price": 300,
+      "product_subCategory": "food crop",
+      "product_category": "seeds",
+      "product_image": "Barnyard millet-min.png"
+    },
+    {
+      "product_id": 9,
+      "product_name": "Maize seed ",
+      "product_price": 300,
+      "product_subCategory": "food crop",
+      "product_category": "seeds",
+      "product_image": "Maize seed-min.png"
+    },
+    {
+      "product_id": 10,
+      "product_name": "Rice seed ",
+      "product_price": 500,
+      "product_subCategory": "food crop",
+      "product_category": "seeds",
+      "product_image": "RICE seed-min.png"
+    },
+    {
+      "product_id": 11,
+      "product_name": "Wheat seed ",
+      "product_price": 600,
+      "product_subCategory": "food crop",
+      "product_category": "seeds",
+      "product_image": "Wheat seed-min.png"
+    },
+    {
+      "product_id": 12,
+      "product_name": "fox Millet ",
+      "product_price": 200,
+      "product_subCategory": "food crop",
+      "product_category": "seeds",
+      "product_image": "fox Millet -min.png"
+    },
+    {
+      "product_id": 13,
+      "product_name": "jowar Seed",
+      "product_price": 400,
+      "product_subCategory": "food crop",
+      "product_category": "seeds",
+      "product_image": "jowar -min.png"
+    },
+    {
+      "product_id": 14,
+      "product_name": "Brinjal seed",
+      "product_price": 300,
+      "product_subCategory": "horticulture ",
+      "product_category": "seeds",
+      "product_image": "Brinjal seed.png"
+    },
+    {
+      "product_id": 15,
+      "product_name": "Cabbage seed",
+      "product_price": 100,
+      "product_subCategory": "horticulture ",
+      "product_category": "seeds",
+      "product_image": "Cabbage seed-min.png"
+    },
+    {
+      "product_id": 16,
+      "product_name": "Cauliflower seed",
+      "product_price": 200,
+      "product_subCategory": "horticulture ",
+      "product_category": "seeds",
+      "product_image": "Cauliflower seed-min.png"
+    },
+    {
+      "product_id": 17,
+      "product_name": "Chilli seed",
+      "product_price": 200,
+      "product_subCategory": "horticulture ",
+      "product_category": "seeds",
+      "product_image": "Chilli seed-min.png"
+    },
+    {
+      "product_id": 18,
+      "product_name": "Potato seed",
+      "product_price": 300,
+      "product_subCategory": "horticulture ",
+      "product_category": "seeds",
+      "product_image": "Potato seed-min.png"
+    },
+    {
+      "product_id": 19,
+      "product_name": "Tomato seed",
+      "product_price": 200,
+      "product_subCategory": "horticulture ",
+      "product_category": "seeds",
+      "product_image": "Tomato seed-min.png"
+    },
+    {
+      "product_id": 20,
+      "product_name": "onion seed",
+      "product_price": 400,
+      "product_subCategory": "horticulture ",
+      "product_category": "seeds",
+      "product_image": "onion seed-min.png"
+    },
+    {
+      "product_id": 21,
+      "product_name": "Apple",
+      "product_price": 300,
+      "product_subCategory": "vegetables & fruit",
+      "product_category": "seeds",
+      "product_image": "Apple-min.png"
+    },
+    {
+      "product_id": 22,
+      "product_name": "Banana",
+      "product_price": 100,
+      "product_subCategory": "vegetables & fruit",
+      "product_category": "seeds",
+      "product_image": "Banana-min.png"
+    },
+    {
+      "product_id": 23,
+      "product_name": "Mango",
+      "product_price": 200,
+      "product_subCategory": "vegetables & fruit",
+      "product_category": "seeds",
+      "product_image": "Mango-min.png"
+    },
+    {
+      "product_id": 24,
+      "product_name": "Pea",
+      "product_price": 200,
+      "product_subCategory": "vegetables & fruit",
+      "product_category": "seeds",
+      "product_image": "Pea-min.png"
+    },
+    {
+      "product_id": 25,
+      "product_name": "Raddish",
+      "product_price": 300,
+      "product_subCategory": "vegetables & fruit",
+      "product_category": "seeds",
+      "product_image": "Raddish-min.png"
+    },
+    {
+      "product_id": 26,
+      "product_name": "Booster Fertilizer",
+      "product_price": 300,
+      "product_subCategory": "booster",
+      "product_category": "fertiliser",
+      "product_image": "Booster Fertilizer-min.png"
+    },
+    {
+      "product_id": 27,
+      "product_name": "Cocopeat",
+      "product_price": 300,
+      "product_subCategory": "cocopeat",
+      "product_category": "fertiliser",
+      "product_image": "Cocopeat-min.png"
+    },
+    {
+      "product_id": 28,
+      "product_name": "Micro-Nutrient Fertilizer",
+      "product_price": 500,
+      "product_subCategory": "micro nutrient",
+      "product_category": "fertiliser",
+      "product_image": "Micro-Nutrient Fertilizer-min.png"
+    },
+    {
+      "product_id": 29,
+      "product_name": "Organic Fertilizer ",
+      "product_price": 600,
+      "product_subCategory": "organic fertilizer",
+      "product_category": "fertiliser",
+      "product_image": "Organic Fertilizer -min.png"
+    },
+    {
+      "product_id": 30,
+      "product_name": "Plant growth",
+      "product_price": 200,
+      "product_subCategory": "plant nutrient",
+      "product_category": "fertiliser",
+      "product_image": "Plant growth Promoter.png"
+    },
+    {
+      "product_id": 31,
+      "product_name": "Vermi-Compost",
+      "product_price": 400,
+      "product_subCategory": "plant nutrient",
+      "product_category": "fertiliser",
+      "product_image": "Vermi-Compost-min.png"
+    },
+    {
+      "product_id": 32,
+      "product_name": "Water-soluble Fertilizer",
+      "product_price": 300,
+      "product_subCategory": "water soluble",
+      "product_category": "fertiliser",
+      "product_image": "Water-soluble Fertilizer-min.png"
+    },
+    {
+      "product_id": 33,
+      "product_name": "Bactericide",
+      "product_price": 100,
+      "product_subCategory": "bactericide",
+      "product_category": "pesticides",
+      "product_image": "Bactericide-min.png"
+    },
+    {
+      "product_id": 34,
+      "product_name": "Fungicide",
+      "product_price": 200,
+      "product_subCategory": "fungicide",
+      "product_category": "pesticides",
+      "product_image": "Fungicide-min.png"
+    },
+    {
+      "product_id": 35,
+      "product_name": "Herbicide",
+      "product_price": 200,
+      "product_subCategory": "herbicide",
+      "product_category": "pesticides",
+      "product_image": "Herbicide.png"
+    },
+    {
+      "product_id": 36,
+      "product_name": "Insecticide ",
+      "product_price": 300,
+      "product_subCategory": "insecticide",
+      "product_category": "pesticides",
+      "product_image": "Insecticide 500ml.png"
+    },
+    {
+      "product_id": 37,
+      "product_name": "Organic Herbicide",
+      "product_price": 200,
+      "product_subCategory": "herbicide",
+      "product_category": "pesticides",
+      "product_image": "Organic Herbicide.png"
+    },
+    {
+      "product_id": 38,
+      "product_name": "Organic insecticide",
+      "product_price": 400,
+      "product_subCategory": "insecticide",
+      "product_category": "pesticides",
+      "product_image": "Organic insecticide.png"
+    },
+    {
+      "product_id": 39,
+      "product_name": "RODENTICIDE",
+      "product_price": 300,
+      "product_subCategory": "rodenticide",
+      "product_category": "pesticides",
+      "product_image": "RODENTICIDE1-min.png"
+    },
+    {
+      "product_id": 40,
+      "product_name": "Weedicide",
+      "product_price": 100,
+      "product_subCategory": "weedicide",
+      "product_category": "pesticides",
+      "product_image": "Weedicide-min.png"
+    },
+    {
+      "product_id": 41,
+      "product_name": "rodenticide",
+      "product_price": 200,
+      "product_subCategory": "rodenticide",
+      "product_category": "pesticides",
+      "product_image": "rodenticide-min.png"
+    },
+    {
+      "product_id": 42,
+      "product_name": "Hydroponic Grow Kit",
+      "product_price": 200,
+      "product_subCategory": "irrigation tools",
+      "product_category": "tools",
+      "product_image": "Hydroponic Grow Kit-min.png"
+    },
+    {
+      "product_id": 43,
+      "product_name": "Sprinkler",
+      "product_price": 300,
+      "product_subCategory": "irrigation tools",
+      "product_category": "tools",
+      "product_image": "Sprinkler-min.png"
+    },
+    {
+      "product_id": 44,
+      "product_name": "irrigation pipe",
+      "product_price": 300,
+      "product_subCategory": "irrigation tools",
+      "product_category": "tools",
+      "product_image": "irrigation pipe-min.png"
+    },
+    {
+      "product_id": 45,
+      "product_name": "water pump",
+      "product_price": 300,
+      "product_subCategory": "irrigation tools",
+      "product_category": "tools",
+      "product_image": "water pump-min.png"
+    },
+    {
+      "product_id": 46,
+      "product_name": "Grow bags",
+      "product_price": 500,
+      "product_subCategory": "nursery tools",
+      "product_category": "tools",
+      "product_image": "Grow bags-min.png"
+    },
+    {
+      "product_id": 47,
+      "product_name": "Hand rake",
+      "product_price": 600,
+      "product_subCategory": "nursery tools",
+      "product_category": "tools",
+      "product_image": "Hand rake-min.png"
+    },
+    {
+      "product_id": 48,
+      "product_name": "Hose pipe",
+      "product_price": 200,
+      "product_subCategory": "nursery tools",
+      "product_category": "tools",
+      "product_image": "Hose pipe-min.png"
+    },
+    {
+      "product_id": 49,
+      "product_name": "Pot",
+      "product_price": 400,
+      "product_subCategory": "nursery tools",
+      "product_category": "tools",
+      "product_image": "Pot-min.png"
+    },
+    {
+      "product_id": 50,
+      "product_name": "Pruner",
+      "product_price": 300,
+      "product_subCategory": "nursery tools",
+      "product_category": "tools",
+      "product_image": "Pruner-min.png"
+    },
+    {
+      "product_id": 51,
+      "product_name": "Trowel",
+      "product_price": 100,
+      "product_subCategory": "nursery tools",
+      "product_category": "tools",
+      "product_image": "Trowel-min.png"
+    },
+    {
+      "product_id": 52,
+      "product_name": "watering can",
+      "product_price": 200,
+      "product_subCategory": "nursery tools",
+      "product_category": "tools",
+      "product_image": "watering can-min.png"
+    },
+    {
+      "product_id": 53,
+      "product_name": "Crop cover",
+      "product_price": 200,
+      "product_subCategory": "farm tools",
+      "product_category": "tools",
+      "product_image": "Crop cover-min.png"
+    },
+    {
+      "product_id": 54,
+      "product_name": "NET",
+      "product_price": 300,
+      "product_subCategory": "farm tools",
+      "product_category": "tools",
+      "product_image": "NET-min.png"
+    },
+    {
+      "product_id": 55,
+      "product_name": "Tiller",
+      "product_price": 200,
+      "product_subCategory": "farm tools",
+      "product_category": "tools",
+      "product_image": "Tiller-min.png"
+    },
+    {
+      "product_id": 56,
+      "product_name": "Water pipe",
+      "product_price": 400,
+      "product_subCategory": "farm tools",
+      "product_category": "tools",
+      "product_image": "Water pipe-min.png"
+    }
+  ]
+}
